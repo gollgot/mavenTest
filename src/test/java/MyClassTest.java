@@ -6,6 +6,6 @@ class MyClassTest {
     @Test
     void returnTrue() {
         MyClass myClass = new MyClass();
-        assertTrue(myClass.returnTrue());
+        assertFalse(myClass.returnTrue());
     }
 }
